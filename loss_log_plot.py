@@ -203,4 +203,5 @@ def data_check(data):
     
     return
     
-main()
+if __name__ == '__main__':
+    main()
