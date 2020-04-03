@@ -10,7 +10,7 @@ If the text file has a header, it is automatically removed
 The program extracts the loss values G_GAN, G_GAN_Feat, etc. from a line, 
 calculates the average for each epoch, and plots on a graph loss value against epoch.
 
-Usage: python filename.txt
+Usage: python loss_log_plot.py <filename.txt>
 
 @author: owainazam
 """
